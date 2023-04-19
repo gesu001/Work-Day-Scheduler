@@ -36,13 +36,16 @@ $(function () {
   }
   
   function readTaskFromStorage() {
-    var tasktime = $(this).parent().parent().attr('id')
-    var task = localStorage.getItem(tasktime);
-    $(this).parent().prev().val(task)
-    if (!task) {
-      return
-    } 
-  }
+    var textEl = $('textarea')
+    textEl.each(function(){
+      var key = $(this).parent().attr('id')
+      var value = localStorage.getItem(key)
+      $(this).text(value);
+      if (!value) {
+        return
+      }
+  })
+}
   readTaskFromStorage();
   displayTime();
   backgroundColor ()
