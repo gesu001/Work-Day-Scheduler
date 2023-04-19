@@ -1,7 +1,7 @@
 # Work-Day-Scheduler
 
 
-![Work-Day-Scheduler](./assets/work-day-scheduler%20screenshot.png)
+![Work-Day-Scheduler](./assets/image/work-day-scheduler%20screenshot.png)
 
 ## Description
 

@@ -12,8 +12,9 @@ timeDisplayEl.text(currentDay);
 function backgroundColor() {
   var currentHour = dayjs().format('H'); 
   var rows = document.getElementsByClassName("row");
-  Array.from(rows).forEach(function(row) {
-    var rowHour = row.id;
+  var rows =Array.from(rows).forEach(function(row) {
+    var rowHour = row.id.split("_")[1];
+
     if (rowHour) {
       if (rowHour === currentHour) {
         addClass(row, "present");
@@ -26,7 +27,7 @@ function backgroundColor() {
   function addClass(element, classname) {
     element.classList.add(classname);
   }
-  })
+})
 }
 
 function handleTaskSubmit(event){
