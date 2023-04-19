@@ -1,11 +1,10 @@
 # Work-Day-Scheduler
 
-
 ![Work-Day-Scheduler](./assets/image/work-day-scheduler%20screenshot.png)
 
 ## Description
 
-This code quiz application can help web developer to test their knowleges about the HTML, CSS and JavaScript. 
+This Work-Day-Scheduler application aims to assist scheduling tasks for each hour from 9am to 5 pm. 
 
 ## Technologies Used
 
@@ -29,7 +28,7 @@ N/A
 
 ## Usage
 
-To use this application, simply click the link below to the page. You can enter or change your task to the time blocker, and save it on your local storage. 
+To use this application, simply click the link below to the page. You can enter or update your tasks to the time block, then click the save button. Your task content will be store in the web's local storage. To clear the content, press ```ctrl + shift + I```, a DevTools page will open, under the "Application" tab, navigating to storage -> local storage -> file, right click on the "file", then click the "clear" button.
 
 * [Work-Day-Scheduler](https://gesu001.github.io/Work-Day-Scheduler/)
 
@@ -47,16 +46,18 @@ Please refer to the LICENSE in the repo.
 
 The Javascript code of this application refers to the following documentations:
 
-* [w3school](https://www.w3schools.com/js/default.asp)
-
 * [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 * [Day.js](https://day.js.org/)
 
 * [StackOverflow](https://stackoverflow.com/questions/59995703/trying-to-change-background-color-based-off-if-the-hour-is-in-the-past-current)
 
+* [StackOverflow](https://stackoverflow.com/questions/27273444/save-and-load-input-values-using-local-storage)
+
 * [jQuery API](https://api.jquery.com/)
 
 * [jQuery UI](https://jqueryui.com/)
+
+* [w3school](https://www.w3schools.com/js/default.asp)
 
 © 2023 Melbourne. Confidential and Proprietary. All Rights Reserved.
