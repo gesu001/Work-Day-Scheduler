@@ -4,7 +4,7 @@
 
 ## Description
 
-This Work-Day-Scheduler application aims to assist scheduling tasks for each hour from 9am to 5 pm. 
+This Work-Day-Scheduler application aims to assist scheduling tasks for each hour from 9am to 5 pm. Green, red or grey color represents future, present or past events.
 
 ## Technologies Used
 
